@@ -48,6 +48,7 @@ you need reinstall YouCompleteMe for your local environment.(more details in [Yo
 Plugins
 --------------------------------------------
 These plugins are installed in my configurations:
+
 1. [vundle](https://github.com/gmarik/Vundle)
 2. [a.vim](https://github.com/vim-scripts/a.vim)
 3. [Align](https://github.com/vim-scripts/Align)
@@ -69,5 +70,5 @@ These plugins are installed in my configurations:
 19. [TxtBrowser](https://github.com/vim-scripts/TxtBrowser)
 20. [vim-fugitive](https://github.com/vim-scripts/vim-fugitive)
 21. [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-more details see [.vimrc](https://github.com/dyxu/vimrc/blob/master/.vimrc)
 
+more details see [.vimrc](https://github.com/dyxu/vimrc/blob/master/.vimrc)
