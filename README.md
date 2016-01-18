@@ -87,15 +87,15 @@ Key Mappings
     * :AS (splits and switches)
     * :AV (vertical splits and switches)
 * **bufexplorer** quickly and easily switch between buffers.
-    * \be (normal open) 
+    * \be (normal open)
     * \bs (force horizontal split open)
     * \bv (force vertical split open)
-* **switch between windows** 
+* **switch between windows**
 
-    noremap <c-k> <c-w>k
-    noremap <c-j> <c-w>j
-    noremap <c-h> <c-w>h
-    noremap <c-l> <c-w>l
+        noremap <c-k> <c-w>k
+        noremap <c-j> <c-w>j
+        noremap <c-h> <c-w>h
+        noremap <c-l> <c-w>l
 
 * **Mark--Markat** highlight several words in different colors simultaneously, similar to the built-in 'hlsearch'.
     * \m (mark the word under the cursor, similar to the star command)
@@ -105,24 +105,20 @@ Key Mappings
 you to efficiently browse through source code files for different programming languages.
     * tl (open or close (toggle) the taglist window)
 * **neocomplcache** provides keyword completion system by maintaining a cache of keywords in the current buffer.
-    * <c-n> (Toggle neocomplcache and jump to the next item)
-    * <c-p> (Toggle neocomplcache and jump to the previous item)
+    * &lt;c-n> (Toggle neocomplcache and jump to the next item)
+    * &lt;c-p> (Toggle neocomplcache and jump to the previous item)
 * **nerdcommenter** quickly and easily comment.
     * \ci (toggles the comment state of the selected line(s) individually)
     * \cm (comments the given lines using only one set of multipart delimiters)
     * \cu (uncomments the selected line(s))
     * \cA (adds comment delimiters to the end of line and goes into insert mode between them)
-* **nerdtree** allows you to explore your filesystem and to open files and directories. 
-    * <F2> (open or close the NERDTree)
-* **SrcExpl** a source code explorer that provides context for the currently selected keyword by displaying the 
+* **nerdtree** allows you to explore your filesystem and to open files and directories.
+    * &lt;F2> (open or close the NERDTree)
+* **SrcExpl** a source code explorer that provides context for the currently selected keyword by displaying the
 function or type definition or declaration in a separate window.
-    * <F3> (toggles the Source Explorer window on and off)
+    * &lt;F3> (toggles the Source Explorer window on and off)
 * **mine**
 
-    map <F9> :make<CR>
-    imap <F9> <ESC>:make<CR>
-    nmap <F5> :!python % <CR>
-
-
-
-
+        map <F9> :make<CR>
+        imap <F9> <ESC>:make<CR>
+        nmap <F5> :!python % <CR>
