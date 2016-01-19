@@ -48,7 +48,7 @@ ctags and cscope should be installed for some plugins (SrcExpl and ccvext). so i
 
 #### YouCompleteMe
 
-you need reinstall YouCompleteMe for your local environment.(more details in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
+you need reinstall YouCompleteMe for your local environment sometimes.(more details in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
 
 Plugins
 --------------------------------------------
